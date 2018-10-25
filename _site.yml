@@ -14,12 +14,8 @@ navbar:
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
-    - icon: fa-github fa-lg
-      href: http://github.com/zabore
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/zabormetrics
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+      href: https://www.linkedin.com/in/john-mccarthy-5287b689/
 output:
   html_document:
     theme: paper
