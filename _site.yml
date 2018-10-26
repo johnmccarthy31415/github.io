@@ -1,22 +1,29 @@
-name: "Emily C. Zabor"
-output_dir: "."
+name: John McCarthy
+output_dir: '.'
 navbar:
-  title: "John C McCarthy"
+  title: John McCarthy
+  type: inverse
   left:
-    - text: "Writing"
-      href: research.html
-    - text: "Speaking"
-      href: talks.html
-    - text: "Programming"
-      href: software.html
-    - text: "Teaching"
-      href: teaching.html
+  - text: About
+    href: about.html
+  - text: Speaking
+    href: talks.html
+  - text: Programming
+    href: software.html
+  - text: Teaching
+    href: teaching.html
   right:
-    - icon: fa-envelope fa-lg
-      href: contact.html
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/john-mccarthy-5287b689/
+  - icon: fa-envelope fa-lg
+    href: contact.html
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/john-mccarthy-5287b689/
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+    theme: readable
+    css: styles.css
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    lib_dir: site_libs
+    self_contained: no
+
